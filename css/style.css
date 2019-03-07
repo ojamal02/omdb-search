@@ -1,0 +1,79 @@
+
+#search-container {
+  z-index: 99;
+  margin: 25%;
+  width: 300px;
+  transition: 1s ease-in;
+  overflow:hidden;
+}
+
+#query {
+  border: 2p black;
+  background-color: blanchedalmond;
+  width: 70%;
+  float:left;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: cyan;
+  color: black;
+  height: 45px;
+  width: 75px;
+  text-align:center;
+  float:left;
+  border-radius: 5px;
+}
+
+#display {
+  z-index: -1;
+  width:80%;
+  margin: 0 auto;
+  position: relative;
+  top: -500px;
+  bottom: 0;
+  padding: 2px;
+  transition: 1s ease-in;
+}
+
+#poster-container {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/paper_fibers.png");
+}
+
+
+#info {
+ font-size: 12px;
+  border-radius: 5px;
+}
+
+#info header {
+  height: 20px;
+  background-color: yellow;
+  padding: 2px;
+}
+#title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#year {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#summary {
+  font-size: 12px;
+  margin-top: 10px;
+  
+}
+
+.expanded {
+  height: 200px !important;
+}
+
+.expanded #display {
+  position: relative;
+  top: 2px;
+}
